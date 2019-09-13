@@ -12,6 +12,7 @@ public class ExecutableClass extends BaseClass    {
 		type(f,"1234");
 		WebElement btn = driver.findElement(By.id("loginbutton"));
 		System.out.println("123");
+System.out.println("hi");
 		click(btn);
 		closeBrowser();
 		
