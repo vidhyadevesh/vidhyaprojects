@@ -11,6 +11,7 @@ public class ExecutableClass extends BaseClass    {
 		WebElement f = driver.findElement(By.id("pass"));
 		type(f,"1234");
 		WebElement btn = driver.findElement(By.id("loginbutton"));
+		System.out.println("hi");
 		click(btn);
 		closeBrowser();
 		
